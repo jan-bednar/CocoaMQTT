@@ -15,4 +15,6 @@ Pod::Spec.new do |s|
   s.source_files = "Source/{*.h}", "Source/*.swift"
   s.dependency "CocoaAsyncSocket", "~> 7.6.1"
   s.dependency "SwiftyTimer", "~> 2.0.0"
+  
+  s.swift_version = "4.2"
 end
