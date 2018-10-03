@@ -137,7 +137,6 @@
 				04DB76521C1E7BB900776B4C /* Resources */,
 				04DB76C11C1E82F900776B4C /* Embed Frameworks */,
 				E0F8AAEF93B4208443D3BB24 /* [CP] Embed Pods Frameworks */,
-				B7657B971EAE8359B74B4EF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,7 +159,7 @@
 				TargetAttributes = {
 					04DB76531C1E7BB900776B4C = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = 2Z2KAMMN28;
+						DevelopmentTeam = 86FZ7Y9N92;
 						LastSwiftMigration = 0910;
 					};
 				};
@@ -198,21 +197,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B7657B971EAE8359B74B4EF1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B8B6F59ED9B3CFAB8AA29288 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -401,11 +385,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 2Z2KAMMN28;
+				DEVELOPMENT_TEAM = 86FZ7Y9N92;
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.emqtt.ChatExample;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.bednar.ChatExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 4.0;
@@ -420,11 +404,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 2Z2KAMMN28;
+				DEVELOPMENT_TEAM = 86FZ7Y9N92;
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.emqtt.ChatExample;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.bednar.ChatExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 4.0;
